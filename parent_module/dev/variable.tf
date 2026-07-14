@@ -1,0 +1,17 @@
+variable "rgs" {}
+variable "strg" {}
+variable "ctnr" {}
+variable "vnets" {}
+variable "subnets" {}
+variable "public_ips" {}
+variable "nics" {}
+variable "nsgs" {}
+variable "nic_nsg_association" {}
+variable "peering" {}
+variable "bsn" {}
+variable "linux_vms" {}
+variable "load_balancer" {}
+variable "backend_pool" {}
+variable "lb_rule" {}
+variable "lb_probe" {}
+variable "backend_pool_association" {}
