@@ -2,6 +2,6 @@ resource "azurerm_storage_container" "ctnr" {
   for_each = var.ctnr
 
   name = each.value.name
-  storage_account_id = each.value.storage_account_id.id
+  storage_account_id = var.storage_account_ids[each.value.storage_account_key]
   container_access_type = each.value.container_access_type
 }

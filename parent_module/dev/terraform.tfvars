@@ -53,8 +53,8 @@ subnets = {
   subnet2 = {
     name                 = "subnet5"
     resource_group_name  = "rg-dev-04"
-    virtual_network_name = "vnet-dev-05"
-    address_prefixes     = ["20.0.1.0/24"]
+    virtual_network_name = "vnet-dev-04"
+    address_prefixes     = ["10.0.3.0/24"]
   }
 
   subnet3 = {
@@ -99,7 +99,7 @@ nics = {
     name                = "NetworkInterfaceCard2"
     location            = "central india"
     resource_group_name = "rg-dev-04"
-    subnet_key          = "subnet2"
+    subnet_key          = "subnet1"
 
     ip_configuration = {
       name                          = "internal"
